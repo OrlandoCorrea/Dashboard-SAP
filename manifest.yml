@@ -1,0 +1,9 @@
+applications:
+- path: .
+  domain: mybluemix.net
+  name: dash-te-sap
+  host: dash-te-sap
+  memory: 300M
+  command: node server.js
+  instances: 1
+  disk_quota: 1024M
